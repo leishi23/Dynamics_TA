@@ -1,6 +1,6 @@
 # Problem 1
 
-![image](https://github.com/leishi23/Lei_TA/blob/main/Screenshot%20from%202023-09-14%2019-45-47.png?raw=true)
+![image](https://github.com/leishi23/Lei_TA/blob/main/Discussion_2_3_Sol/Screenshot%20from%202023-09-14%2019-45-47.png?raw=true)
 
 ## Solution
 
@@ -32,7 +32,7 @@ $$ x = v_0 \cos \alpha t = 250 \cos 15 \times 6.6636 \approx 1609.1 ft $$
 
 # Problem 2
 
-![image](https://github.com/leishi23/Lei_TA/blob/main/Screenshot%20from%202023-09-14%2020-44-20.png?raw=true)
+![image](https://github.com/leishi23/Lei_TA/blob/main/Discussion_2_3_Sol/Screenshot%20from%202023-09-14%2020-44-20.png?raw=true)
 
 ## Solution
 
@@ -66,11 +66,11 @@ So, the final result is: **$s \in [0.0625m, 0.1875m]$**
 
 # Problem 3
 
-![image](https://github.com/leishi23/Lei_TA/blob/main/Screenshot%20from%202023-09-14%2021-47-49.png?raw=true)
+![image](https://github.com/leishi23/Lei_TA/blob/main/Discussion_2_3_Sol/Screenshot%20from%202023-09-14%2021-47-49.png?raw=true)
 
 ## Solution
 
-![image](https://github.com/leishi23/Lei_TA/blob/main/Screenshot%20from%202023-09-14%2021-48-30.png?raw=true)
+![image](https://github.com/leishi23/Lei_TA/blob/main/Discussion_2_3_Sol/Screenshot%20from%202023-09-14%2021-48-30.png?raw=true)
 
 First, we can get the acceleration of the block:
 $$ a = g\sin \theta \hat{i} - g\cos \theta \hat{j}\\
