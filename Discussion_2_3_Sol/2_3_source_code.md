@@ -56,7 +56,7 @@ $$ \frac{1}{2}v^2 = -\frac{a_0\lambda}{2\pi} \cos(2\pi s / \lambda) \bigg|_{\fra
 Since $v^2 \geq 0$, so we can get: **$ \cos(2\pi s / \lambda) \leq 0 $**
 Then, we can get:
 $$ \frac{1}{2}\pi + 2\pi n \leq 2\pi s / \lambda \leq \frac{3}{2}\pi + 2\pi n \\
- \frac{1}{4}\lambda + n \leq s \leq \frac{3}{4}\lambda + 3n,  n= \pm 1, \pm 2, \pm 3, ...$$
+ \frac{1}{4}\lambda + n \leq s \leq \frac{3}{4}\lambda + 3n,  n= 0, \pm 1, \pm 2, \pm 3, ...$$
 
 > **Note**: The sphere CAN NOT jump from one admissible range to the next. So, the sphere can only be in **_one_** range.
 
