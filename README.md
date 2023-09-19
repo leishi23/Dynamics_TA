@@ -3,7 +3,7 @@
   <br>
   <a href="https://canvas.wisc.edu/courses/364143"><img src="https://engineering.wisc.edu/wp-content/uploads/2022/02/default-16x9-1-scaled-scaled.jpg" alt="Image" width="300", height="200"></a>
   <br>
-  Dexterous Manipulation Online Planning Repo
+  EMA202/ME240 Dynamics Course Discussion Problem Solution Repo
   <br>
 </h1>
 
