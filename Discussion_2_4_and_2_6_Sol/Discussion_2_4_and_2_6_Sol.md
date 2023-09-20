@@ -80,26 +80,26 @@ $$
 $$
 The first term stands for simulated gravity term: $g_s$ (since the direction of $\hat{e_r}$ is outward, while the gravity is downward, so we need to add a negative sign):
 $$
-g_s=-(-r\omega^2)\geq \frac{g}{2}
+g_s=-(-r\omega^2)> \frac{g}{2}
 $$
 The second term stands for lateral acceleration $a_L$:
 $$
-a_L=2\dot{r}\omega\leq \frac{g}{20}
+a_L=2\dot{r}\omega< \frac{g}{20}
 $$
 given the conditions $\dot{r}=2m/s$, we have:
 $$
 \left\{
 \begin{align}
-\nonumber r\omega^2 \geq g/2\\
-\nonumber \omega \leq g/80\\
+\nonumber r\omega^2 > g/2\\
+\nonumber \omega < g/80\\
 \end{align}
 \right.
 $$
 $$
 \left\{
 \begin{align}
-\nonumber r \geq g/(2\omega^2)\\
-\nonumber \omega \leq g/80\\
+\nonumber r > g/(2\omega^2)\\
+\nonumber \omega < g/80\\
 \end{align}
 \right.
 $$
