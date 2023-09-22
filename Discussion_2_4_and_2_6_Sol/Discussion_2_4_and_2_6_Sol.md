@@ -2,6 +2,14 @@
 
 ![image](https://github.com/leishi23/Dynamics_TA/blob/main/Discussion_2_4_and_2_6_Sol/Screenshot%20from%202023-09-19%2019-31-43.png?raw=true)
 
+
+
+
+
+
+
+
+
 ## Solution
 
 The question is to find the $\vec{v}$ and $\vec{a}$ at $\theta=30^o$ in radial-transverse coordinates.
@@ -9,7 +17,6 @@ The question is to find the $\vec{v}$ and $\vec{a}$ at $\theta=30^o$ in radial-t
 Recall the position vector in radial-transverse coordinates taught in class:
 ![image](https://github.com/leishi23/Dynamics_TA/blob/main/Discussion_2_4_and_2_6_Sol/Screenshot%20from%202023-09-19%2020-04-39.png?raw=true)
 where:
-
 $$
 \vec{r}=r\hat{e}_r=(0.9-0.12t^2)\hat{e}_r
 $$
@@ -62,8 +69,30 @@ $$
 $$
 
 
+
+
+
+
+
+
+
 # Problem 2
+
 ![image](https://github.com/leishi23/Dynamics_TA/blob/main/Discussion_2_4_and_2_6_Sol/Screenshot%20from%202023-09-19%2020-35-48.png?raw=true)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Solution
 
 The acceleration of radial-transverse coordinates:
