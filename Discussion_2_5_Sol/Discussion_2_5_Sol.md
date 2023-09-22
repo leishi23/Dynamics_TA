@@ -1,4 +1,4 @@
-#Problem 1
+# Problem 1
 ![Problem 1](https://github.com/leishi23/Dynamics_TA/blob/main/Discussion_2_5_Sol/Screenshot%20from%202023-09-21%2021-42-53.png?raw=true)
 > Notice: $y = -0.003x^2$, the $m^{-1}$ is just about the unit. 
 
@@ -27,7 +27,7 @@ And $v_{min} = \sqrt{g\rho \vert_{x=0}} = \sqrt{9.8 \times 166.67} = 42.4 m/s = 
 
 
 
-#Problem 2
+# Problem 2
 ![Problem 2](https://github.com/leishi23/Dynamics_TA/blob/main/Discussion_2_5_Sol/Screenshot%20from%202023-09-21%2021-43-14.png?raw=true)
 
 ## Recall and Analysis:
