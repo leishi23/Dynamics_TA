@@ -1,6 +1,6 @@
 # Problem 1
 
-![Prbloem1](https://github.com/leishi23/Dynamics_TA/blob/main/Discussion_2_7_Sol/Problem_1.png?raw=true              )
+![Prbloem1](https://github.com/leishi23/Dynamics_TA/blob/main/Discussion_2_7_Sol/Problem_1.png?raw=true)
 
 ## Recall & Analysis
 ![](https://github.com/leishi23/Dynamics_TA/blob/main/Discussion_2_7_Sol/Screenshot%202023-09-26%20232729.png?raw=true)
@@ -69,9 +69,6 @@ $$
 Where $\ddot{y_A}=a_0=aft/s$, and $\ddot{y_G}=0.231ft/s^2$
 
 
-
-
-
 # Problem2
 
 ![](https://github.com/leishi23/Dynamics_TA/blob/main/Discussion_2_7_Sol/Problem_2.png?raw=true)
@@ -90,8 +87,8 @@ Same as the previous problem, we can set up the equations with the lengths of al
 make $\vec{x}$ pointing downwards the slope.
 $$
 L=3x_A+x_B\\
+0=3\dot{x}_A+\dot{x}_B\\
 0=3\ddot{x}_A+\ddot{x}_B\\
-0=3\ddot{x}_A+\ddot{x}_A\\
 $$
 using the fact $\ddot{x}_A=a_0$, we have
 $$
