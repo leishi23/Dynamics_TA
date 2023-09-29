@@ -59,7 +59,7 @@ $$
 $$
 
 
-> Hint: N-T coordinates are built on moving path of particles (Here, **A**). Any acceleration we calculate using $\vec{a} = \dot{v} \hat{u}_t + \frac{v^2}{\rho} \hat{u}_n \\$ will return acceleration relative to **A**.
+> Hint: N-T coordinates are built on moving path of particles (Here, **B**). Any acceleration we calculate using $\vec{a} = \dot{v} \hat{u}_t + \frac{v^2}{\rho} \hat{u}_n \\$ will return acceleration relative to **A**.
 
 
 
@@ -170,6 +170,7 @@ $$
   a&=\frac{dv}{dt}\\
   a&=\frac{dv}{dx}\frac{dx}{dt}\\
   a&=v\frac{dv}{dx}\\
+  a_xdx&=vdv
    \end{align}
   $$
 - Since $a(x)$ depends on $x$, we need to integrate it to get the velocity:
