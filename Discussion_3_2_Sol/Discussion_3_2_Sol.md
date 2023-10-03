@@ -65,9 +65,47 @@ Plug the value of $r$ and $\alpha$: $\dot{\theta} = 3.09$ or $\dot{\theta} = 6.5
 $$
 \vec{v} = \dot{r} \hat{u_r} + r \dot{\theta} \hat{u_{\theta}}\\
 \vec{v} = 0 \hat{u_r} + r \dot{\theta} \hat{u_{\theta}}\\
-\vec{v_{min}} = 6.18 \hat{u_{\theta}} ft/s\\
-\vec{v_{max}} = 13.04 \hat{u_{\theta}} ft/s
+\vec{v}_{min} = 6.18 \hat{u_{\theta}} ft/s\\
+\vec{v}_{max} = 13.04 \hat{u_{\theta}} ft/s
 $$
 <div STYLE="page-break-after: always;"></div>
 
+# Problem 2
+<div style="text-align:center">
+  <img src="https://github.com/leishi23/Dynamics_TA/blob/main/Discussion_3_2_Sol/Screenshot%202023-10-03%20152942.png?raw=true" alt="Image Description">
+</div>
 
+---
+
+## Recall and Analysis
+<div style="text-align:center">
+  <img src="https://github.com/leishi23/Dynamics_TA/blob/main/Discussion_3_2_Sol/Screenshot%202023-10-03%20153154.png?raw=true" alt="Image Description" width="700"/>   
+</div>
+
+- $a_r = \ddot{R} - R\dot{\theta}^2$, direction is outward the center of curvature
+- $a_{\theta} = R\ddot{\theta} + 2\dot{R}\dot{\theta}$, direction is perpendicular to the radial direction
+
+---
+
+## Solution
+- Transverse direction: $\sum F_{\theta} = ma_{\theta}=m(R\ddot{\theta} + 2\dot{R}\dot{\theta})$
+- Radial direction: $\sum F_{r} = ma_r = m(\ddot{R} - R\dot{\theta}^2)$
+
+For radical direction, since $T$ is inwards and $a_r$ is outward, so:
+$$
+\begin{aligned}\nonumber
+-T = ma_r \\
+T = -ma_r \\
+T = m(R\dot{\theta}^2 - \ddot{R})
+\end{aligned}
+$$
+where, $R = l - w_s b t$ and $\dot{R} = -w_s b $, $\ddot{R} = 0$; also $\dot{\theta} = w_b$ 
+So, $T = m(l-w_s b t) w_b^2$
+
+For transverse direction:
+$$
+F_{\theta} = ma_{\theta} \\
+F_{\theta} = m(R\ddot{\theta} + 2\dot{R}\dot{\theta}) \\
+$$
+where, $R = l - w_s b t$ and $\dot{R} = -w_s b $, $\ddot{R} = 0$; also $\dot{\theta} = w_b$, $\ddot{\theta} = 0$
+So, $F_{\theta} = -2m w_s b w_b$, if $w_s$ is positive, then it moves inward, otherwise it moves outward.
