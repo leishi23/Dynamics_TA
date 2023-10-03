@@ -29,3 +29,7 @@
 ## Contents
 
 - `Discussion_X_Y_Sol` folder is for the solution of Discussion X_Y problem set. Each folder contains a markdown source code file, a PDF file and some plugged in figs.
+
+## Teaching team
+Instructor: [Sonny Nimityongskul](https://directory.engr.wisc.edu/me/Faculty/Nimityongskul_Sonny/)
+TAs who develop this repo: [Lei Shi](https://sky-lab-uw.github.io/people/) [Yicheng Zeng](https://well.robotics.wisc.edu/staff/zeng-yicheng/)
