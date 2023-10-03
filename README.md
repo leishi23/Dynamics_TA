@@ -28,4 +28,4 @@
 
 ## Contents
 
-- `Discussion_2_3_Sol` folder is for the solution of Week 2 Friday Discussion
+- `Discussion_X_Y_Sol` folder is for the solution of Discussion X_Y problem set. Each folder contains a markdown source code file, a PDF file and some plugged in figs.
