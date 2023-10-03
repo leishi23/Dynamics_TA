@@ -33,4 +33,4 @@
 ## Teaching team
 Instructor: [Sonny Nimityongskul](https://directory.engr.wisc.edu/me/Faculty/Nimityongskul_Sonny/) 
 
-TAs who develop this repo: [Lei Shi](https://sky-lab-uw.github.io/people/), [Yicheng Zeng](https://well.robotics.wisc.edu/staff/zeng-yicheng/)
+TAs who develop this repo: [Lei Shi](leishi23.github.io/homepage), [Yicheng Zeng](https://well.robotics.wisc.edu/staff/zeng-yicheng/)
