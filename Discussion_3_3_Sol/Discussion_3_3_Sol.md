@@ -2,8 +2,9 @@
 
 ## Problem 1
 
-![](D:\UWM\Dynamics_TA\Discussion_3_3_Sol\Prob1.png)
-
+<div style="text-align:center">
+  <img src="https://github.com/leishi23/Dynamics_TA/blob/main/Discussion_3_3_Sol/Prob1.png?raw=true" width="500"/>   
+</div>
 
 
 ### Recall & Analysis
@@ -14,15 +15,15 @@
 
 We can try to draw Full Body Diagram of both $A$ and $B$, and define their direction of acceleration. The external forces applied on A are gravity and tension on the rope.
 
-<img src="D:\UWM\Dynamics_TA\Discussion_3_3_Sol\FBD_A.jpg" alt="FBD_A" style="zoom:33%;" />
+<img src="https://github.com/leishi23/Dynamics_TA/blob/main/Discussion_3_3_Sol/FBD_A.jpg?raw=true" alt="FBD_A" style="zoom:33%;" />
 
 The external forces applied on B are gravity, Normal force by the plan, friction and Tension on the rope.
 
-<img src="D:\UWM\Dynamics_TA\Discussion_3_3_Sol\FBD_B.jpg" alt="FBD_B" style="zoom:33%;" />
+<img src="https://github.com/leishi23/Dynamics_TA/blob/main/Discussion_3_3_Sol/FBD_B.jpg?raw=true" alt="FBD_B" style="zoom:33%;" />
 
 ​	We can also use kinematic analysis to determine the relationship between displacement of $A$ and $B$. Where: $\Delta L = 2x_A-x_B=0$
 
-<img src="D:\UWM\Dynamics_TA\Discussion_3_3_Sol\Kinematics.jpg" alt="FBD_B" style="zoom:33%;" />
+<img src="https://github.com/leishi23/Dynamics_TA/blob/main/Discussion_3_3_Sol/Kinematics.jpg?raw=true" alt="FBD_B" style="zoom:33%;" />
 
 ### Solution
 
@@ -66,7 +67,10 @@ And it is moving downwards.
 
 ## Problem 2
 
-![](D:\UWM\Dynamics_TA\Discussion_3_3_Sol\Prob2.png)
+<div style="text-align:center">
+  <img src="https://github.com/leishi23/Dynamics_TA/blob/main/Discussion_3_3_Sol/Prob2.png?raw=true" alt="Image Description" width="500"/>   
+</div>
+
 
 ### Recall & Analysis
 
@@ -76,7 +80,7 @@ $$
 \sum F_y=ma_y
 $$
 
-<img src="D:\UWM\Dynamics_TA\Discussion_3_3_Sol\FBD_P.jpg" style="zoom:33%;" />
+<img src="https://github.com/leishi23/Dynamics_TA/blob/main/Discussion_3_3_Sol/FBD_P.jpg?raw=true" style="zoom:33%;" />
 
 ### Solution
 
@@ -141,6 +145,54 @@ a_t=\frac{\mu_k cos 20^o-sin20^o}{cos 20^o+\mu_k sin20^o}(g-a_{p/t}sin20^o)+a_{p
 $$
 So, $a_t=4.17m/s^2$.
 
-## Problem 3
+# Problem 3
+<div style="text-align:center">
+  <img src="https://github.com/leishi23/Dynamics_TA/blob/main/Discussion_3_3_Sol/Screenshot%202023-10-05%20205225.png?raw=true" alt="Image Description">
+</div>
 
-![](D:\UWM\Dynamics_TA\Discussion_3_3_Sol\Prob3.png)
+---
+
+## Recall and Analysis
+- For this system, it has two contacted objects on the incline and one cable-pulley.
+  - Objects keep contacting with the incline, so they have the same acceleration in the direction of the incline.
+  - The cable-pulley is frictionless, so the tension is the same on both sides of the cable. As usual, we could use **"the length of the cable is constant"**.
+- Build a coordinate system with **$x$-axis along the incline and $y$-axis perpendicular to the incline**.
+- For B object, its motion has two parts: 
+  - $a_{B/A}$: the acceleration of B object relative to A object, i.e. **y-axis**.
+  - $a_{incline}$: the acceleration of B object sliding on the incline, i.e. **x-axis**.
+
+<div style="text-align:center">
+  <img src="https://github.com/leishi23/Dynamics_TA/blob/main/Discussion_3_3_Sol/%E5%9B%BE%E7%89%87_20231005211725.jpg?raw=true" alt="Image Description" width="700"/>   
+</div>
+
+- Obj A: 
+  - **y-axis**: $\sum F_y = ma_y = 0$, with normal force from incline, cabel tension and gravity's component.
+  - **x-axis**: $\sum F_x = ma_x$, with gravity's component, cabel tension and normal force from B.
+
+<div style="text-align:center">
+  <img src="https://github.com/leishi23/Dynamics_TA/blob/main/Discussion_3_3_Sol/%E5%9B%BE%E7%89%87_20231005211732.jpg?raw=true" alt="Image Description" width="700"/>   
+</div>
+
+- Obj B: 
+  - **y-axis**: $\sum F_y = ma_y = 0$, with cabel tension and gravity's component.
+  - **x-axis**: $\sum F_x = ma_x$, with gravity's component and normal force from A.
+
+---
+
+## Solution
+
+- Obj A:
+  - **y-axis**: $N_{A} - T - w_A\cos20 \degree = 0$
+  - **x-axis**: $w_A\sin20 \degree + N_{AB} - T = m_Aa_A$
+- Obj B:
+  - **y-axis**: $ w_B\cos20 \degree - T= m_Ba_{B/A}$
+  - **x-axis**: $w_B\sin20 \degree - N_{AB} = m_Ba_A$, because B has the same acceleration as A in the direction of the incline.
+- 4 equations and 5 unknowns: $N_A, N_{AB}, T, a_A, a_{B/A}$.
+- Cable length is constant: $S_A + S_{B/A} = constant$, so $a_A + a_{B/A}=0$, COOL! Now we have 4 equations and 4 unknowns. So we could solve them.
+  ![image](https://github.com/leishi23/Dynamics_TA/blob/main/Discussion_3_3_Sol/%E5%9B%BE%E7%89%87_20231005215134.jpg?raw=true=200x)
+
+$$
+a_A = (\frac{w_A\sin20 \degree + w_B(\sin20 \degree - \cos20 \degree)}{w_A + 2w_B})g= -0.243 ft/{s^2}\\
+T = (\frac{w_A+ w_B}{g})(g\sin20 \degree - a_A)=27.96lb\\
+$$
+$a_A$'s direction is upward the incline... something wrong? Yes... Bad parameters.
