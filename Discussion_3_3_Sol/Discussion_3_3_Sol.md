@@ -195,4 +195,3 @@ $$
 a_A = (\frac{w_A\sin20 \degree + w_B(\sin20 \degree - \cos20 \degree)}{w_A + 2w_B})g= -0.243 ft/{s^2}\\
 T = (\frac{w_A+ w_B}{g})(g\sin20 \degree - a_A)=27.96lb\\
 $$
-$a_A$'s direction is upward the incline... something wrong? Yes... Bad parameters.
