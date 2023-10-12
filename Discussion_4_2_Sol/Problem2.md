@@ -10,6 +10,15 @@ $$
 T_1+V_1=T_2+V_2
 $$
 
+For springs, its potential energy is: 
+$$
+V = \frac{1}{2} k \Delta x^2
+$$
+We can recall the equation of kinetic energy from 14.1:
+$$
+T=\frac{1}{2}mv^2
+$$
+
 ## Solution
 
 Given $m=2.85oz$
