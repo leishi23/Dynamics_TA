@@ -43,13 +43,15 @@ $$
 \end{align}
 $$
 
-So, $T_1 + V_1 + U_{1-2} = T_2 + V_2 $ becomes $14400 + V_1 + 1610d = 3200 + V_2$, then $d = 6.96$ ft. 
+So, $T_1 + V_1 + U_{1-2} = T_2 + V_2 $ becomes $14400 + V_1 + 1610d = 3200 + V_2$, then $d = 6.96$ ft.. 
 > The unit is feet because everything is in the imperial system.
 
 
+<div style="page-break-after: always;"></div>
+
 ## Problem 2
 
-![image-20231017233052841](C:\Users\23472\AppData\Roaming\Typora\typora-user-images\image-20231017233052841.png)
+<img src="C:\Users\23472\AppData\Roaming\Typora\typora-user-images\image-20231017233052841.png" alt="image-20231017233052841" style="zoom:64%;" />
 
 ### Analysis
 
@@ -71,9 +73,7 @@ So, $T_1 + V_1 + U_{1-2} = T_2 + V_2 $ becomes $14400 + V_1 + 1610d = 3200 + V_2
 
 ### Solution
 
-Since the external force in the system is gravity (conservative force), we can solve it in a kinetic-potential energy fashion: $T_1+V_1+U_{1\rightarrow 2}=T_2+V_2$
-
-But since $C$ was removed in the second stage, we need to break it down into 2 stages.
+Since the external force in the system is gravity (conservative force), we can solve it in a kinetic-potential energy fashion: $T_1+V_1+U_{1\rightarrow 2}=T_2+V_2$. Since $C$ was removed in the second stage, we need to break it down into 2 stages.
 
 1. $C$ drops along with $A$ and $B$, and stopped at some height, where: $v_A = v_C = -v_B$. The system travelled $d_1+d_2$
 
@@ -98,6 +98,8 @@ But since $C$ was removed in the second stage, we need to break it down into 2 s
    v_3^2=\frac{(m_A+m_B)v_2^2+2g(m_A-m_B)(d_3-d_1)}{m_A+m_B}
    $$
    where $v_3=1.19m/s^2$
+
+<div style="page-break-after: always;"></div>
 
 ## Problem 3
 <div style="text-align:center">
