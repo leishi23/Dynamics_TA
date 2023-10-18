@@ -65,3 +65,9 @@ $ T_1 + V_1 + U_{1-2} = T_2 +v_2$, where $T$ is the kinetic energy, $V$ is the p
 
 Assemble all the equations above, we have: $v_{1f}^2 + v_{2f}^2 = 170.64$.
 So, $v_{1f} = 5.84 ft/s$, and $v_{2f} = 11.68 ft/s$.
+
+> - Students have 1 week to submit a regrade request to the grader.  Students must write a document outlining why they need a regrade and email it or bring it to office hours.  Warning: regrades may result in a lower score.
+> - Q1 Lei Shi
+> - Q2 Josh Murwin
+> - Q3 Yicheng Zeng
+
