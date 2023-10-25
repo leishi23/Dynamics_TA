@@ -38,27 +38,20 @@
   - $v_{c_{1_x}} = 0$ because the crate is at rest initially.
   - $v_{R_{1_x}} = 0$ because the ramp is at rest initially.
   - $v_{R_{2_x}} = v_{R_{2}}$ because the ramp moves in the x-direction only.
-  - $v_{c/r_{2_x}} = v_{c/r_{2}} \cos \theta$ because the crate moves in both x and y directions.
-  - $\vec{v_c} = \vec{v_r}+\vec{v_{c/r}}$, and relative speed $v_{c/r}$ is the same with the direction of decline.
-
-<img src="C:\Users\23472\AppData\Roaming\Typora\typora-user-images\image-20231025005826348.png" alt="image-20231025005826348" style="zoom:50%;" />
-
-
+  - $v_{c_{2_x}} = v_{{c/R}_{2}} \cos \theta + v_{R_{2_x}}$ 
+    - because the crate moves in both x and y directions.
+    - $\vec v_{c_{2}} = \vec v_{c/R_{2}} + \vec v_{R_{2}} = v_{{c/R}_{2}} \cos \theta \hat i - v_{{c/R}_{2}} \sin \theta \hat j + v_{R_{2}} \hat i$
 
 ### Solution
 
-The relative velocity of crate and ramp is parallels to the decline of the slope:
-$$
-v_c^2=v_{c/r}^2+v_{r}^2-2v_{c/r}v_{r}cos30^o
-$$
-
-$$
+$$ 
 \begin{aligned}
 m_c g d \sin \theta &= \frac{1}{2} m_c v_{c_2}^2 + \frac{1}{2} m_R v_{R_2}^2 \\
-0 &= m_c v_{c/r2} \cos \theta + m_R v_{R_2}
+0 &= m_c (v_{{c/R}_{2}} \cos \theta + v_{R_{2}}) \cos \theta + m_R v_{R_2} \\
+\vec v_{c_{2}} &= v_{{c/R}_{2}} \cos \theta \hat i - v_{{c/R}_{2}} \sin \theta \hat j + v_{R_{2}} \hat i
 \end{aligned}
 $$
-Plug the values into the equations above and solve for $v_{c_2}$ and $v_{R_2}$. So, $v_{c_2} = 5.33 \text{ m/s}$ and $v_{R_2} = -1.08 \text{ m/s}$.
+Plug the values into the equations above and solve for $v_{c_2}$ and $v_{R_2}$. So, $v_{c_2} = 4.41 \hat{i} - 3.17 \hat{j}\text{ m/s}$ and $v_{R_2} = -1.09 \hat{i}\text{ m/s}$.
 
 ## Problem 3
 
