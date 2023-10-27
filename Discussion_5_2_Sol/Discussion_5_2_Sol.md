@@ -1,4 +1,4 @@
-## Problem 1
+## Problem 2
 
 <div style="text-align:center">
   <img src="https://github.com/leishi23/Dynamics_TA/blob/main/Discussion_5_2_Sol/Screenshot%202023-10-26%20220453.png?raw=true" width="500"/>   
