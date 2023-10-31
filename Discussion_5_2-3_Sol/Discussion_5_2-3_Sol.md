@@ -48,6 +48,8 @@ $$
 m_A(v_{Ay})_1+m_A(v_{By})_1=(m_A+m_B)(v_{y})_2
 $$
 
+<div style="page-break-after: always;"></div>
+
 ### Solution
 
 (1)	Plugging in the known values to our equations, we have:
@@ -66,6 +68,7 @@ $$
 
 (2)	Given $v_B=30mph$, we have $v_A=v_B/0.4465=67.2mph$
 
+<div style="page-break-after: always;"></div>
 
 ## Problem 2
 <img src="https://github.com/leishi23/Dynamics_TA/blob/main/Discussion_5_2-3_Sol/Screenshot%202023-10-31%20175756.png?raw=true" alt="oblique_impact" style="zoom:67%;" />
@@ -79,6 +82,7 @@ $$
   > **Note**: we don't need both equations. Please analyze the problem and choose the one.
 - Equation 2: impulse-momentum principle:$M = \dot{h}$, where $h$ is the angular momentum of the particle about the center of curvature.
 
+<div style="page-break-after: always;"></div>
 
 ### Solution
 ![image](https://github.com/leishi23/Dynamics_TA/blob/main/Discussion_5_2-3_Sol/Screenshot%202023-10-31%20182607.png?raw=true) 
