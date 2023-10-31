@@ -4,7 +4,7 @@
 
 ### Recall & Analysis
 
-<img src="D:\UWM\Dynamics_TA\Discussion_5_2-3_Sol\oblique_impact.png" alt="oblique_impact" style="zoom:67%;" />
+<img src="https://github.com/leishi23/Dynamics_TA/blob/main/Discussion_5_2-3_Sol/oblique_impact.png?raw=true" alt="oblique_impact" style="zoom:67%;" />
 
 ​	Some Key concepts and equations for oblique impact.
 
@@ -65,3 +65,36 @@ $$
 ​	Therefore, $v_A>v_B$.
 
 (2)	Given $v_B=30mph$, we have $v_A=v_B/0.4465=67.2mph$
+
+
+## Problem 2
+<img src="https://github.com/leishi23/Dynamics_TA/blob/main/Discussion_5_2-3_Sol/Screenshot%202023-10-31%20175756.png?raw=true" alt="oblique_impact" style="zoom:67%;" />
+
+### Recall & Analysis
+
+- The _**equations of motion**_ are functions of time that describe the position, velocity, and acceleration. In this problem, it's in the 2-D polar coordinate system, so we need **two** variables: **$r$** and **$\theta$** to describe the position of the particle. To solve for two variables, we need two equations of motion.
+- Equation 1: it's a curvilinear motion, so we could consider the acceleration equation:
+    - $a_r = \ddot{R} - R\dot{\theta}^2$, direction is outward the center of curvature
+    - $a_{\theta} = R\ddot{\theta} + 2\dot{R}\dot{\theta}$, direction is perpendicular to the radial direction
+  > **Note**: we don't need both equations. Please analyze the problem and choose the one.
+- Equation 2: impulse-momentum principle:$M = \dot{h}$, where $h$ is the angular momentum of the particle about the center of curvature.
+
+
+### Solution
+![image](https://github.com/leishi23/Dynamics_TA/blob/main/Discussion_5_2-3_Sol/Screenshot%202023-10-31%20182607.png?raw=true) 
+- Impulse momentum principle: $M = \dot{h}$, where $\vec{h}=\vec{r}\times m\vec{v}$
+  - $\vec{r} = R\hat{u}_r$
+  - $\vec{v} = \dot{R}\hat{u}_r + R\dot{\theta}\hat{u}_{\theta}$
+  - $h = mR^2\dot{\theta}$, because $\vec{r}\times\vec{v} = mR^2\dot{\theta}\hat{u}_z$ where $\hat{u}_r\times\hat{u}_{\theta} = \hat{u}_z$ and $\hat{u}_r\times\hat{u}_r = 0$
+  - $\dot{h} = mR^2\ddot{\theta} + 2mR\dot{R}\dot{\theta}$
+  - $M = mR^2\ddot{\theta} + 2mR\dot{R}\dot{\theta}$
+
+- Curvilinear motion: observe that the collar is not subject to any force in the $r$ direction, so $a_r=0$, this then implies: $\ddot{R}-R\dot{\theta}^2=0$
+
+Summarize the equations of motion:
+$$
+\begin{cases}
+\ddot{R}-R\dot{\theta}^2=0 \\
+mR^2\ddot{\theta} + 2mR\dot{R}\dot{\theta} = M
+\end{cases}
+$$
