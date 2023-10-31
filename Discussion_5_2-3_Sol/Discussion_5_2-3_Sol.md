@@ -1,6 +1,6 @@
 ## Problem 1
 
-![](D:\UWM\Dynamics_TA\Discussion_5_2-3_Sol\Problem1.png)
+![](https://github.com/leishi23/Dynamics_TA/blob/main/Discussion_5_2-3_Sol/Problem1.png?raw=true)
 
 ### Recall & Analysis
 
