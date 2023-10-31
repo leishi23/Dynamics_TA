@@ -7,9 +7,9 @@
 ​	Let us set $y$ axis pointing vertically up and break down the process into 4 stages:
 
 	1. the laptop starts dropping, $ T_1=0,\ V_1=mgh$.
- 	2. the moment before the laptop hits the ground, where: $T_2=\frac{1}{2}mv_2^2,\ V_2=0$.
- 	3. the moment after laptop bounce off the ground, where: $T_3=\frac{1}{2}mv_3^2,\ V_2=0$.
- 	4. The laptop rebounds to the highest point of $h_4=5cm$, where: $T_4=0,\ V_4=mgh_4$.
+	2. the moment before the laptop hits the ground, where: $T_2=\frac{1}{2}mv_2^2,\ V_2=0$.
+	3. the moment after laptop bounce off the ground, where: $T_3=\frac{1}{2}mv_3^2,\ V_2=0$.
+	4. The laptop rebounds to the highest point of $h_4=5cm$, where: $T_4=0,\ V_4=mgh_4$.
 
 ​	We can use conservation of energy between 1 and 2, 3 and 4. And we can use impulse-momentum principle between 2 and 3.
 
