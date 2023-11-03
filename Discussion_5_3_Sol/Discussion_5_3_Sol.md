@@ -1,3 +1,45 @@
+## Problem 1
+
+![](D:\UWM\Dynamics_TA\Discussion_5_3_Sol\Problem1.png)
+
+### Analysis
+
+<img src="D:\UWM\Dynamics_TA\Discussion_5_3_Sol\FBD_Problem1.png" style="zoom: 50%;" />
+
+​	To find the equations, we can first draw a FBD of the block, then try to find what equations can we use to solve the unknowns.
+
+​	First, we try to consider energy: we can easily notice that there are 2 forces, gravity $mg$, and normal force $N$ from the cone. Gravity is conservative force, and normal force is perpendicular to the cone surface. So we can use conservative of energy for this problem (with $U_{nc}=0$).
+$$
+T_1+V_1=T_2+V_2
+$$
+​	Then we look into  momentum-impulse. $\vec{p_1}+F_{1-2}=\vec{p_2}$
+$$
+\vec{F}=-Ncos\theta\cdot  \hat{u}_r +(Nsin\theta-mg)\cdot \hat{u}_z
+$$
+​	we can see that direction of $N$ is consistently changing with the position of the block, making $\int\vec{F}dt$ hard to solve, and making momentum in all directions not conserved.
+
+​	We then analyze angular momentum-impulse. Where $\vec{M}=\vec{r}\times\vec{F}$:
+$$
+\begin{align}
+\vec{M}&= r\hat{u}_r \times (-Ncos\theta\cdot  \hat{u}_r +(Nsin\theta-mg)\cdot \hat{u}_z)\\
+&=(Nsin\theta-mg)r\cdot\hat{u}_\theta
+\end{align}
+$$
+​	$\vec{M}$ is along polar direction, which means that on direction $\hat{u}_z$, angular momentum is conserved. Where $\hat{h}_z=r\hat{u}_r\times m(\dot{r}\hat{u}_r+r\dot\theta\hat{u}_\theta)=mr^2\dot\theta\hat{u}_z$. So
+$$
+mr_1^2\dot\theta_1=mr_2^2\dot\theta_2
+$$
+
+<div style="page-break-after: always;"></div>
+
+### Solution
+
+![](D:\UWM\Dynamics_TA\Discussion_5_3_Sol\1698988909852-88a2ebbd-12fd-4a9b-8f8a-77305560b8e7_2.jpg)
+<div style="page-break-after: always;"></div>
+![1698988909852-88a2ebbd-12fd-4a9b-8f8a-77305560b8e7_3](D:\UWM\Dynamics_TA\Discussion_5_3_Sol\1698988909852-88a2ebbd-12fd-4a9b-8f8a-77305560b8e7_3.jpg)
+<div style="page-break-after: always;"></div>
+![1698988909852-88a2ebbd-12fd-4a9b-8f8a-77305560b8e7_4](D:\UWM\Dynamics_TA\Discussion_5_3_Sol\1698988909852-88a2ebbd-12fd-4a9b-8f8a-77305560b8e7_4.jpg)
+<div style="page-break-after: always;"></div>
 ## Problem 2
 
 <img src="https://github.com/leishi23/Dynamics_TA/blob/main/Discussion_5_3_Sol/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE(43).png?raw=true" alt="oblique_impact" style="zoom:67%;" />
