@@ -33,8 +33,9 @@ $$
 
 <div style="page-break-after: always;"></div>
 
-
 ### Solution
+
+<img src="D:\UWM\Dynamics_TA\Discussion_6_1_Sol\1.jpg" style="zoom:70%;" />
 
 ​	For this problem, we first find $\vec{r}$ and $\vec{\omega}$ for the fixed rotation
 $$
@@ -56,6 +57,7 @@ $$
 $$
 
 <!-- page segamentation -->
+
 <div style="page-break-after: always;"></div>
 
 ## Problem 2
@@ -76,7 +78,7 @@ $$
 
 ### Solution
 Since the bucket is in a fixed axis rotation about point A, we have:
-$$ 
+$$
 \vec{v}_{B} = \vec\omega_{AB}\times \vec r_{B/A} =  v_0\hat{i} \\
 v_0\hat{i} = \omega_{AB}\hat{k}\times l\hat{j} \\
 -\omega_{AB}l\hat{i} = v_0\hat{i} \\
