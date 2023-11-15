@@ -66,13 +66,11 @@ $$
 
 ![屏幕截图 2023-11-14 190200](D:\UWM\Dynamics_TA\Discussion_6_2b_Sol\屏幕截图 2023-11-14 190200.png)
 
-​	**Note**: AB and BC are fixed together so they are always perpendicular to each other.
-
 ## Analysis
 
 <img src="D:\UWM\Dynamics_TA\Discussion_6_2b_Sol\微信图片_20231114195540.jpg" alt="微信图片_20231114195540" style="zoom: 33%;" />
 
-​	Repeat what we have done for the first problem: find IC. In this case, the problem set is easier since we have been told BC is rotating around A. so the instantaneous center is A.
+​	Repeat what we have done for the first problem: find IC. In this case. Since $\theta=45^o$, velocity of C is perpendicular to $\bar{AC}$, and $B$ is on rod $AB$ which is also rotating around $A$, so we can find out IC in this case is $A$.
 
 <!-- page segamentation -->
 
@@ -80,7 +78,7 @@ $$
 
 ### Solution
 
-​	The angular velocity of C w.r.t. A is  $\omega_{BC}=20rad/s\cdot \hat{k}$
+​	The angular velocity of C with respect to the instantaneous center is the same as the angular velocity of $BC$, which is  $\omega_{BC}=20rad/s\cdot \hat{k}$
 $$
 \begin{align}
 \vec{v}_C &=\vec{v}_A+\vec{\omega}\times\vec{r}_{C/A}\\
