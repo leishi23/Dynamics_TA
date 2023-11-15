@@ -91,5 +91,5 @@ $$
 \vec{v}_B =\vec{v}_{IC}+\vec{\omega}\times\vec{r}_{B/IC}\\
 \vec{v}_B =\vec{v}_A+\vec{\omega}_{AB}\times\vec{r}_{B/A}\\
 $$
-​	It is obvious that $\vec{\omega}_{AB}=\vec\omega=20rad/s\cdot \hat{k}$
+​	We can find that $\vec{\omega}_{AB}=\vec\omega=20rad/s\cdot \hat{k}$
 
