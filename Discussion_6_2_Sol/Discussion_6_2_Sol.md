@@ -16,7 +16,6 @@
 
 <div style="page-break-after: always;"></div>
 
-
 ### Solution
 
 Find $V_D$ from bar CD: 
