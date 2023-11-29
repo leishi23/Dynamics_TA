@@ -72,7 +72,7 @@ $$
   - (x) $P = ma_x$
   - (y) $0 = ma_y \rightarrow a_y = 0$, because the block is not moving in the y-direction
   - ($\theta$) $-Ph = I\alpha = \frac{1}{12}ml^2\alpha$
-- $\vec{a_B} = \vec{a_G} + \vec{\alpha} \times \vec{r_{G/B}} - \vec{\omega}^2 \times \vec{r_{G/B}}$
+- $\vec{a_B} = \vec{a_G} + \vec{\alpha} \times \vec{r_{B/G}} - \vec{\omega}^2 \times \vec{r_{B/G}}$
   - $\vec{a_B}$ is the acceleration of point B
   - $\vec{a_G}$ is the acceleration of point G, i.e. the center of mass
   - $\vec{\alpha}$ is the angular acceleration of the block
@@ -84,7 +84,53 @@ $$
 
 ### Solution
 
+​	(1) Solving for $\vec{a}_B=0$, we start from analyzing the acceleration equation of $B$.
+$$
+\vec{a_B} = \vec{a_G} + \vec{\alpha} \times \vec{r_{B/G}} - \vec{\omega}^2 \times \vec{r_{B/G}}
+$$
+​	Plugging in $\vec{\omega}=0$, $\vec{a}_B=0$, we first have:
+$$
+\begin{align}
+\vec{a_G} &= -\vec{\alpha}\times \vec{r_{B/G}}\\
+\vec{a_G} &= -\alpha\hat{k}\times (-\frac{l}{2})\hat{j}\\
+\vec{a_G} &= -\frac{\alpha l}{2}\hat{j}\tag{1}   \\
+\end{align}
+$$
+​	In this equation, $\vec{a_G}$ and $\alpha$ remain unknown, so we need to derive their form using our analysis. We have:
+$$
+\begin{align}
+\vec{a_G} &= a_x\hat{i} + a_y\hat{j} \\
+\vec{a_G} &= \frac{P}{m}\hat{i}\tag{2}\\
+\end{align}
+$$
+
+​	And:
+
+$$
+\begin{align}
+-Ph &= \frac{1}{12}ml^2\alpha\\
+\alpha &= -\frac{12Ph}{ml^2}\tag{3}
+\end{align}
+$$
+
+​	By plugging in (2) and (3) into (1).  We then have an equation containing h and other known values.
+$$
+P/m = 6Ph/ml\\
+h = l/6
+$$
+​	Which is independent to mass and force.
+
+​	(2) Using similar equation: 
+$$
+\begin{align}
+\vec{a_A} &= \vec{a_G} + \vec{\alpha} \times \vec{r_{A/G}} - \vec{\omega}^2 \times \vec{r_{A/G}}\\
+\vec{a_A} &= P/m\hat{i} + -\frac{12Ph}{ml^2}\hat{i}\times (l/2-l/6)+0
+\end{align}
+$$
+​	And we have: $\vec{a_A}=2P/m\hat i$
+
 <div style="page-break-after: always;"></div>
 
 ## Problem 3
+
 ![image-20231107195436910](./Screenshot%202023-11-28%20140148.png)
