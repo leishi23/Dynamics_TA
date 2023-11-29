@@ -1,6 +1,7 @@
 ## Problem 1
 
-![image-20231107195436910](./Screenshot%202023-11-28%20133131.png)
+<!-- ![image-20231107195436910](./Screenshot%202023-11-28%20133131.png) -->
+<img src="./Screenshot%202023-11-28%20133131.png" alt="oblique_impact" style="zoom:37%; center;" />
 
 ### Review
 - For the moment of inertia about an axis:
@@ -61,7 +62,7 @@ $$
 <div style="page-break-after: always;"></div>
 
 ## Problem 2
-![image-20231107195436910](./Screenshot%202023-11-28%20140302.png)
+<img src="./Screenshot%202023-11-28%20140302.png" alt="oblique" style="zoom:37%;  center;" />
 
 > ATTENTION: 
 > - Denote the center of mass as **G** and the pivot point as **B**.
