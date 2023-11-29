@@ -94,7 +94,7 @@ $$
 \begin{align}
 \vec{a_G} &= -\vec{\alpha}\times \vec{r_{B/G}}\\
 \vec{a_G} &= -\alpha\hat{k}\times (-\frac{l}{2})\hat{j}\\
-\vec{a_G} &= -\frac{\alpha l}{2}\hat{j}\tag{1}   \\
+\vec{a_G} &= -\frac{\alpha l}{2}\hat{i}\tag{1}   \\
 \end{align}
 $$
 ​	In this equation, $\vec{a_G}$ and $\alpha$ remain unknown, so we need to derive their form using our analysis. We have:
