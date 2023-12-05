@@ -42,3 +42,8 @@ v_2 &= \sqrt{gb\sin \theta}
 $$
 
 <div style="page-break-after: always;"></div>
+
+## Problem 2
+
+<!-- ![image-20231107195436910](./Screenshot%202023-11-28%20133131.png) -->
+<img src="./Screenshot 2023-12-05 134336.png" alt="oblique_impact" style="zoom:57%; center;" />
