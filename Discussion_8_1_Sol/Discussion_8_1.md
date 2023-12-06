@@ -47,6 +47,8 @@ $$
 
 <img src="./Screenshot 2023-12-05 134336.png" alt="oblique_impact" style="zoom:57%; center;" />
 
+<div style="page-break-after: always;"></div>
+
 ## Solution
 
 (a) Find number of revolutions of B when $\omega_B=600rpm$.(Where $600rpm = 20\pi\ rad/s$ )
@@ -79,9 +81,7 @@ T_1 + V_1 + U_{unc} = T_2+V_2
 $$
 ​	Here $T_2=\frac{1}{2}I_B\omega_B^2=\frac{1}{2}m_Bk_B^2\omega_B^2$
 
-​	And $U_{1\rightarrow 2}=M\cdot \theta_B -F_T\theta_Br_B$, where $\theta_B=27.34rad$ as solved in part (a).
-
-​	Plug in the values into the equation:
+​	And $U_{1\rightarrow 2}=M\cdot \theta_B -F_T\theta_Br_B$, where $\theta_B=27.34rad$ as solved in part (a). Plug in the values into the equation:
 $$
 M\cdot \theta_B -F_T\theta_Br_B=\frac{1}{2}m_Bk_B^2\omega_B^2
 $$
