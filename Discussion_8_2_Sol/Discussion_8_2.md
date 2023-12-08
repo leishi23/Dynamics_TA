@@ -1,3 +1,75 @@
+## Problem 1
+
+![](.\Prob1.png)
+
+### Review
+
+- Angular Momentum: $\vec h_P= I_G\vec \omega_B+\vec r_{G/P}\times m\vec v_G$.
+- Angular Impulse-Momentum Principle(2 equivalent forms):
+
+$$
+\vec{M}_p = \dot{\vec{h}}_p+\vec v_p\times m\vec v_G\tag{1}\\
+$$
+
+$$
+\vec h_{P1}+\int_{t_1}^{t_2}\vec M_p dt = \vec h_{P2}\tag{2}
+$$
+
+- Compare with linear momentum we have learnt:
+
+$$
+\vec{F} = \dot{\vec{p}} \\
+\vec{p}_1+\int_{t_1}^{t_2}\vec F dt = \vec p_{2}\\
+$$
+
+<div style="page-break-after: always;"></div>
+
+### Solution
+
+​	(a) Initial State: $v_1, \omega_1=0$,	Final state: $v_2, \omega_2$,
+
+​	With rolling without slipping condition, and the ball is rolling clockwise and to $+x$ direction, we have: $v_2=-\omega_2r$
+
+- Linear Momentum principle:
+
+$$
+\begin{align}
+mv_{1x} +(-\mu_k N)t_2 = mv_{2x} \tag{x-direction}\\
+mv_{1y} +(N-mg)t_2 = mv_{2y}\tag{y-direction}\\
+\end{align}
+$$
+
+​		Knowing the ball have no velocity on y direction, we can know that $N=mg$. Plug in to the x direction equation to have:
+$$
+mv_1 - \mu_kmgt_2=mv_2\tag{1}
+$$
+
+- Angular Momentum principle:
+
+$$
+I_G\omega_1-\mu_k N t_2 = I_G\omega_2
+$$
+
+​		Plug in $I_G=\frac{2}{5}mr^2$ , $\omega_1=0, \omega_2=-v_2/r$ and $N=mg$, we have:
+$$
+\mu_k mgt_2=I_G\frac{v_2}{r}\tag{2}
+$$
+​	Solving equations (1) and (2) for:
+$$
+t_2=\frac{2v_2}{7\mu_kg}
+$$
+
+​	(b) By plugging in value of $t_2$ to equation (1), we have:
+$$
+v_2=\frac{5}{7}v_1
+$$
+​	And Using $\omega_2 r=v_2 $ we have:
+$$
+\omega_2=\frac{-5v_1}{7r}
+$$
+
+<div style="page-break-after: always;"></div>
+
 ## Problem 2
 
 <!-- ![image-20231107195436910](./Screenshot%202023-11-28%20133131.png) -->
